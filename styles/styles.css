@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header section */
+
+header {
+    padding: 50px 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 48px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+nav h3 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 44px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav .home {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.header-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* travel section */
+
+.travel-section {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* width: 1606px; */
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 135px;
+    background-position: center;
+    text-align: center;
+}
+
+.travel-section-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+    margin-bottom: 0px;
+}
+.travel-section-description{
+    color: #FFF;
+}
+
+
+input, select, button{
+    padding: 11px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    
+}
+button{
+    background-color: #FF5400;
+    color: #FFF;
+}
