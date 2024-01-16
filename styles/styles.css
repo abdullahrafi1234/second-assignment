@@ -48,6 +48,9 @@ nav .home {
     color: #FF5400;
     font-weight: 700;
 }
+.travel-blog{
+    color: #FF5400;
+}
 
 .header-section {
     display: flex;
@@ -91,4 +94,34 @@ input, select, button{
 button{
     background-color: #FF5400;
     color: #FFF;
+}
+
+
+/* tour-section */
+
+.tour-section{
+    gap: 150px;
+    margin: 100px 135px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tour-section li{
+    margin-bottom: 20px;
+}
+
+.tour-section-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-section-description{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.button1{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
 }
