@@ -228,7 +228,8 @@ button {
 
     border-radius: 8px;
     justify-content: space-between;
-    margin: 50px 135px;
+    margin: 120px 135px;
+    margin-bottom: 100px;
     display: flex;
     gap: 24px;
 }
