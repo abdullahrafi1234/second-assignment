@@ -353,12 +353,17 @@ button {
 
     .choose-us-div3 {
         /* margin-left: 450px; */
-        width: 315px;
+        width: 320px;
         /* height: 200px; */
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
         padding: 40px;
+    }
+
+    
+    .destination-section> div{
+        margin-bottom: 30px;
     }
     .choose-us {
         flex-direction: column;
@@ -374,6 +379,7 @@ button {
     .newsletter{
         flex-direction: column;
         margin: 0px;
+        width: 400px;
     }
     
     .footer {
@@ -393,10 +399,14 @@ button {
     }
     img{
         width: 396px;
+        height: auto;
     }
 
     .choose-us img, .choose-us-another img{
         width: 50px;
+    }
+    .footer img{
+        width: 150px;
     }
 
 }
