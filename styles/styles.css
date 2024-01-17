@@ -218,7 +218,7 @@ button {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    padding: 32px;
+    padding: 40px;
 }
 
 
@@ -248,16 +248,17 @@ button {
     margin: 20px 0 0 0;
 
 }
-.newsletter-div button{
+
+.newsletter-div button {
     border-radius: 8px;
-background: #FF5400;
-padding: 15px 126px;
+    background: #FF5400;
+    padding: 15px 126px;
 }
 
 
 /* footer */
 
-.footer-image{
+.footer-image {
     display: flex;
     justify-content: center;
     font-size: 32px;
@@ -272,7 +273,8 @@ padding: 15px 126px;
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
 }
-.copyright{
+
+.copyright {
     padding: 40px;
     padding-bottom: 0px;
     border-top: rgba(19, 19, 24, 0.10) solid 1px;
@@ -332,4 +334,69 @@ padding: 15px 126px;
         margin-left: 30px;
         margin-top: 20px;
     }
+
+
+    .destination-section-img1,
+    .destination-section-img2,
+    .destination-section-img3 {
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .choose-us-div3 {
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .choose-us-div3 {
+        /* margin-left: 450px; */
+        width: 315px;
+        /* height: 200px; */
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        padding: 40px;
+    }
+    .choose-us {
+        flex-direction: column;
+        margin: 0px;
+        gap: 20px;
+        width: 400px;
+    }
+
+    .choose-us-another{
+        margin: 0px;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .footer {
+        margin: 0px;
+        padding: 60px;
+        margin-top: 30px;
+    }
+    
+    .footer-image {
+        margin-bottom: 40px;
+    }
+
+    .sub-button{
+        /* padding-left: 0px; */
+       margin-left: 0px;
+       /* align-items: center; */
+    }
+    img{
+        width: 396px;
+    }
+
+    .choose-us img, .choose-us-another img{
+        width: 50px;
+    }
+
 }
