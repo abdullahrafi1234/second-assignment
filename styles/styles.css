@@ -406,7 +406,11 @@ button {
         width: 50px;
     }
     .footer img{
-        width: 150px;
+        width: 120px;
+    }
+    header img{
+        width: 120px;
+        height: auto;
     }
 
 }
